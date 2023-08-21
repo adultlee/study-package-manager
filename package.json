@@ -1,0 +1,39 @@
+{
+	"name": "study-package-manager",
+	"version": "1.0.0",
+	"description": "본 프로젝트는 여러 페키지 메니저들에 대해서 직접 비교하고 실습하며 학습하기 위한 프로젝트입니다.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/adultlee/study-package-manager.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/adultlee/study-package-manager/issues"
+	},
+	"homepage": "https://github.com/adultlee/study-package-manager#readme",
+	"dependencies": {
+		"@mui/icons-material": "^5.14.3",
+		"@mui/material": "^5.14.5",
+		"chart.js": "^4.3.3",
+		"date-fns": "^2.30.0",
+		"lodash": "^4.17.21",
+		"mobx": "^6.10.0",
+		"moment": "^2.29.4",
+		"next": "^13.4.19",
+		"phaser": "^3.60.0",
+		"react": "^18.2.0",
+		"react-icons": "^4.10.1",
+		"redux": "^4.2.1",
+		"scratch-vm": "^1.6.3",
+		"styled-components": "^6.0.7",
+		"three": "^0.155.0"
+	},
+	"devDependencies": {
+		"webpack-bundle-analyzer": "^4.9.0"
+	}
+}
