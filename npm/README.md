@@ -181,3 +181,6 @@ node_modules 내부에서 dependency를 찾기 위해서는 [node_modules 로딩
 # Reference
 
 - [npm.github.io](https://npm.github.io/how-npm-works-docs/npm2/how-npm2-works.html)
+- [npm docs](https://blog.npmjs.org/post/129378362260/npm-weekly-29-npm-3-out-of-beta-nick-out-of-the)
+- [직방 기술블로그](https://medium.com/zigbang/%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%A7%A4%EB%8B%88%EC%A0%80-%EA%B7%B8%EA%B2%83%EC%9D%B4-%EA%B6%81%EA%B8%88%ED%95%98%EB%8B%A4-5bacc65fb05d)
+- [토스 기술블로그](https://toss.tech/article/node-modules-and-yarn-berry)
