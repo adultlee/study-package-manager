@@ -1,0 +1,22 @@
+{
+	"name": "yarn-test",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"@mui/icons-material": "^5.14.3",
+		"@mui/material": "^5.14.5",
+		"chart.js": "^4.3.3",
+		"date-fns": "^2.30.0",
+		"lodash": "^4.17.21",
+		"mobx": "^6.10.0",
+		"moment": "^2.29.4",
+		"next": "^13.4.19",
+		"phaser": "^3.60.0",
+		"react": "^18.2.0",
+		"react-icons": "^4.10.1",
+		"redux": "^4.2.1",
+		"styled-components": "^6.0.7",
+		"three": "^0.155.0"
+	}
+}
