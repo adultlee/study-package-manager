@@ -4,13 +4,15 @@
 	"description": "본 프로젝트는 여러 페키지 메니저들에 대해서 직접 비교하고 실습하며 학습하기 위한 프로젝트입니다.",
 	"main": "index.js",
 	"scripts": {
-		"start": "npm run clean && npm run test",
-		"test": "npm run test:npm && npm run test:yarn",
+		"start": "npm run clean && npm run test ",
+		"test": "npm run test:npm && npm run test:yarn && npm run test:pnpm",
 		"test:npm": "cd npm && npm i --verbose --no-fund --legacy-peer-deps | gnomon",
 		"test:yarn": "cd yarn && yarn | gnomon",
-		"clean": "npm run clean:npm && npm run clean:yarn",
+		"test:pnpm": "cd pnpm && pnpm i | gnomon",
+		"clean": "npm run clean:npm && npm run clean:yarn && npm run clean:pnpm",
 		"clean:npm": "cd npm && rm -fr node_modules package-lock.json",
-		"clean:yarn": "cd yarn && rm -fr node_modules yarn.lock"
+		"clean:yarn": "cd yarn && rm -fr node_modules yarn.lock",
+		"clean:pnpm": "cd pnpm && rm -fr node_modules pnpm-lock.yaml"
 	},
 	"repository": {
 		"type": "git",
